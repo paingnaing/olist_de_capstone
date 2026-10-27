@@ -1,1 +1,5 @@
-select
+-- 1. For each seller state, find the 3 sellers who earned the most revenue.
+-- 2.For every customer, show the date of their first order and how many orders they placed in total.
+-- 3.For each seller, show how their revenue adds up over time, order by order. The running total starts again for each seller.
+-- 4.What percentage of all money paid came from each payment type? Get the grand total with SUM(…) OVER (), not a subquery. Round to 1 decimal.
+-- 5.Find the order items whose price is higher than the average price in their product category. Use AVG(price) OVER (PARTITION BY category). Leave out products with no category.

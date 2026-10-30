@@ -52,8 +52,7 @@ from order_items oi
 join products p on p.product_id = oi.product_id
 left join category_translation ct on ct.product_category_name = p.product_category_name
 group by ct.product_category_name_english, p.product_category_name
-order by revenue desc
-
+order by revenue desc;
 
 --Q5. Group delivered orders by delivery speed:
 --	Fast: 7 days or less from purchase to delivery.
